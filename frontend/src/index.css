@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-950 text-slate-200 antialiased; font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif; }
+input, select { @apply bg-slate-950 border border-slate-700 rounded-md px-2 py-1.5 text-sm text-slate-100 w-full focus:outline-none focus:border-cyan-500; }
+input:disabled, select:disabled { @apply opacity-50; }
